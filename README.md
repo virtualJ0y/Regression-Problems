@@ -18,26 +18,18 @@ k-Nearest Neighbors (kNN)
 Support Vector Regression (SVR)
 CART Decision Tree
 The steps involve:
-
 Splitting the data into training, validation, and test sets.
 Evaluating the performance of the regressors both with and without normalization.
 Comparing error metrics for all regressors.
 Installation
 To run the project, you will need Python 3 and the following libraries:
-
-bash
-Αντιγραφή κώδικα
 pip install numpy matplotlib scipy scikit-learn
 Usage
 Data Generation: The data is generated using random uniform distributions with added noise.
 Function Fitting: The myCustFunc and poly4thDegree functions are fitted using curve fitting techniques.
 Regressor Training: Machine learning models (kNN, SVR, CART) are trained using the training set, and their performance is evaluated using MAE and RMSE metrics.
 Running the Code
-To execute the code:
-
-bash
-Αντιγραφή κώδικα
-python regression_project.py
+To execute the code: regression_project.py
 This will generate plots and output error metrics for both parts of the project.
 
 Results
